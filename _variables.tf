@@ -1,4 +1,4 @@
 variable "route53_domain" {
-  type        = "string"
+  type        = string
   description = "Domains to create a public hosted zone"
 }
