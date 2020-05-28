@@ -4,6 +4,31 @@
 [![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-hostedzone)](https://github.com/DNXLabs/terraform-aws-hostedzone/blob/master/LICENSE)
 
 <!--- BEGIN_TF_DOCS --->
+## Requirements
+
+| Name | Version |
+|------|---------|
+| terraform | >= 0.12.20 |
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| aws | n/a |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| route53\_domain | Domains to create a public hosted zone | `string` | n/a | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| route53\_domain | n/a |
+| route53\_zone\_ns | n/a |
+
 <!--- END_TF_DOCS --->
 
 ## Author
