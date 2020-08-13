@@ -1,17 +1,14 @@
 # terraform-aws-hostedzone
 
-Terraform-aws-hostedzone is a terraform module to create hosted zones in AWS 
+[![Lint Status](https://github.com/DNXLabs/terraform-aws-hostedzone/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-hostedzone/actions)
+[![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-hostedzone)](https://github.com/DNXLabs/terraform-aws-hostedzone/blob/master/LICENSE)
 
-This module requires:
- - Terraform Version >=0.12.20
+
+This terraform module creates hosted zones in AWS
 
 This modules creates the following resources:
  - Route53 domain - Domains to create a public hosted zone
- 
- More Information: https://dnxlabs.slab.com/public/n772y26t
 
-[![Lint Status](https://github.com/DNXLabs/terraform-aws-hostedzone/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-hostedzone/actions)
-[![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-hostedzone)](https://github.com/DNXLabs/terraform-aws-hostedzone/blob/master/LICENSE)
 
 <!--- BEGIN_TF_DOCS --->
 
