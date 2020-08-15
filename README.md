@@ -3,12 +3,10 @@
 [![Lint Status](https://github.com/DNXLabs/terraform-aws-hostedzone/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-hostedzone/actions)
 [![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-hostedzone)](https://github.com/DNXLabs/terraform-aws-hostedzone/blob/master/LICENSE)
 
+This terraform module creates hosted zones in AWS.
 
-This terraform module creates hosted zones in AWS
-
-This modules creates the following resources:
+The following resources will be created:
  - Route53 domain - Domains to create a public hosted zone
-
 
 <!--- BEGIN_TF_DOCS --->
 
